@@ -16,10 +16,13 @@ def informarStatus(media):
         status = 'Reprovado'
     return status
 
+
 nota1 = float(input('Informe uma nota 1: '))
 nota2 = float(input('Informe uma nota 2: '))
 print()
+
 media = calcularMedia(nota1, nota2)
 status = informarStatus(media)
+
 print('Média do aluno: ', media)
 print('Status do aluno: ', status)

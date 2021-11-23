@@ -8,5 +8,7 @@ def notaValida(nota):
 		n=float(input('Informe uma nota de 0 a 10: '))
 	return n
 
+
 nota = float(input('Informe uma nota de 0 a 10: '))
+
 print('Valor da nota vãlida: ', notaValida(nota))

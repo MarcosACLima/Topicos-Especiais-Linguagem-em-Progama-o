@@ -43,6 +43,9 @@ def quantidadeAlunosAprovados(listaDeNotas):
 
 listaDeMedias = receberNotasDosAlunos()
 quantidadeAprovados = quantidadeAlunosAprovados(listaDeMedias)
+
 print('----- Resultado dos Alunos -----\n\nLista de médias:\n')
+
 imprimirLista(listaDeMedias)
+
 print('\nQuantidade de alunos que obtiveram média maior ou igual a 7: ', quantidadeAprovados)
