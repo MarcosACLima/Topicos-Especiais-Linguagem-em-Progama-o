@@ -11,4 +11,4 @@ def notaValida(nota):
 
 nota = float(input('Informe uma nota de 0 a 10: '))
 
-print('Valor da nota vãlida: ', notaValida(nota))
+print('Valor da nota válida: ', notaValida(nota))

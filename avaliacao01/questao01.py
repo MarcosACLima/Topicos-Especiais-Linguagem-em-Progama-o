@@ -7,7 +7,6 @@ def somaImposto(taxaImposto, custoItem):
 
 
 taxa = float(input('Informe a taxa do imposto: '))
-custo = float(input('Informe a custo do item: '))
+custo = float(input('Informe o custo do item: '))
 
 print('Valor do produto com imposto: ', somaImposto(taxa, custo))
-

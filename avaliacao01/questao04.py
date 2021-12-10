@@ -25,7 +25,7 @@ def imprimirLista(lista):
 
 def receberNotasDosAlunos():
     listaDeMedias = []
-    for aluno in range(2):
+    for aluno in range(10):
         media = calcularMedia(receberNotas(aluno))
         print('Média: %.1f' % media)
         print('\n_____________________________________\n')
